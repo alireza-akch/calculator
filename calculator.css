@@ -1,0 +1,78 @@
+body{
+
+    background-image: url('body-background.jpg');
+    background-size:cover;
+}
+#d1{
+    width: 250px;
+    height: 550px;
+    display:flex;
+    margin: 0 auto 0;
+    margin-top: 100px;
+    /* background-color: rgba(147, 193, 211, 0.905); */
+    background-image: url('1.jpg');
+    background-size:cover;
+    border-radius: 20px;
+    border: 5px solid rgba(69, 4, 84, 0.58);
+}
+#b1{   
+    font-weight: bold;
+    font-size: 18pt;
+    color: rgb(233, 252, 176);
+	background-color : rgba(118, 73, 160, 0.792);
+	height : 60px;
+	width : 60px;
+	border : 5px solid;
+	border-color: rgba(36, 47, 44, 0.817);
+	border-radius : 20px;
+}
+#b2{   
+    font-weight: bold;
+    font-size: 18pt;
+    color: rgb(233, 252, 176);
+	background-color : rgba(30, 101, 37, 0.578);
+	height : 60px;
+	width : 100%;
+	border : 5px solid;
+	border-color: rgba(36, 47, 44, 0.817);
+	border-radius : 20px;
+}
+#b3{   
+    font-weight: bold;
+    font-size: 18pt;
+    color: rgb(233, 252, 176);
+	background-color : rgba(153, 47, 47, 0.792);
+	height : 60px;
+	width : 60px;
+	border : 5px solid;
+	border-color: rgba(36, 47, 44, 0.817);
+	border-radius : 20px;
+}
+#b1:hover{
+    background-color : rgba(146, 62, 224, 0.792);
+    cursor: pointer;
+}
+#b2:hover{
+    background-color : rgba(21, 124, 12, 0.634);
+    cursor: pointer;
+}
+#b3:hover{
+    background-color : rgba(229, 13, 13, 0.792);
+    cursor: pointer;
+}
+form{
+    margin: 0 auto 0;
+}
+#buttonsDiv{
+    /* margin-left: ; */
+    margin-top: 10%;
+}
+#txtbox{
+    font-weight: bold;
+    /* font-size: 10pt; */
+    width: 95%;
+	height: 10%;
+    margin-top: 10px;
+	background-color: rgb(232, 245, 194);
+	border-radius: 10px;
+}
