@@ -1,44 +1,47 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<link type = "text/css" rel = "styleSheet" href = "calculator.css" />
-	</head>
-	<body>
-				<div id = "d1" >
-						<form>
-							<input type = "text" id = "txtbox" name = "txtbox" value = "" />
-						<!--<div id = "numbersInputDiv">
-						</div>-->
-							<div id = buttonsDiv>
-								<input type = "button" value = "1" id = "b1" onclick = "number1()" />
-								<input type = "button" value = "2" id = "b1" onclick = "number2()" />
-								<input type = "button" value = "3" id = "b1" onclick = "number3()" />
-								<br />
-								<br />
-								<input type = "button" value = "4" id = "b1" onclick = "number4()" />
-								<input type = "button" value = "5" id = "b1" onclick = "number5()" />
-								<input type = "button" value = "6" id = "b1" onclick = "number6()" />
-								<br />
-								<br />
-								<input type = "button" value = "7" id = "b1" onclick = "number7()" />
-								<input type = "button" value = "8" id = "b1" onclick = "number8()" />
-								<input type = "button" value = "9" id = "b1" onclick = "number9()" />
-								<br />
-								<br />
-								<input type = "button" value = "+" id = "b1" onclick = "sumOperator()" />
-								<input type = "button" value = "0" id = "b1" onclick = "number0()" />
-								<input type = "button" value = "-" id = "b1" onclick = "substractionOperator()" />
-								<br />
-								<br />
-								<input type = "button" value = "C" id = "b3" onclick = "eraseOperator()" />
-								<input type = "button" value = "*" id = "b1" onclick = "timeOperator()"/>
-								<input type = "button" value = "/" id = "b1" onclick = "divisionOperator()" />
-								<br />
-								<br />
-								<input type = "button" value = "=" id = "b2" onclick = "equalOperator()" />
-							</div>
-						</form>	
-				</div>
-				<script src="calculator.js"></script>
-	</body>
-</html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>calculator</title>
+	<link type="text/css" rel="styleSheet" href="calculator.css" />
+</head>
+
+<body>
+	<div id="d1">
+		<form>
+			<input type="text" id="txtbox" name="txtbox" value="" />
+			<div id=buttonsDiv>
+				<input type="button" value="1" id="b1" onclick="number1()" />
+				<input type="button" value="2" id="b1" onclick="number2()" />
+				<input type="button" value="3" id="b1" onclick="number3()" />
+				<br />
+				<br />
+				<input type="button" value="4" id="b1" onclick="number4()" />
+				<input type="button" value="5" id="b1" onclick="number5()" />
+				<input type="button" value="6" id="b1" onclick="number6()" />
+				<br />
+				<br />
+				<input type="button" value="7" id="b1" onclick="number7()" />
+				<input type="button" value="8" id="b1" onclick="number8()" />
+				<input type="button" value="9" id="b1" onclick="number9()" />
+				<br />
+				<br />
+				<input type="button" value="+" id="b1" onclick="sumOperator()" />
+				<input type="button" value="0" id="b1" onclick="number0()" />
+				<input type="button" value="-" id="b1" onclick="substractionOperator()" />
+				<br />
+				<br />
+				<input type="button" value="C" id="b3" onclick="eraseOperator()" />
+				<input type="button" value="*" id="b1" onclick="timeOperator()" />
+				<input type="button" value="/" id="b1" onclick="divisionOperator()" />
+				<br />
+				<br />
+				<input type="button" value="=" id="b2" onclick="equalOperator()" />
+			</div>
+		</form>
+	</div>
+	<script src="calculator.js"></script>
+</body>
